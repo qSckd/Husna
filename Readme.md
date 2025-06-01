@@ -1,6 +1,8 @@
 # 🛡️ Husna - AntiCheat for Xray
 
-**Husna** es un sistema anti-xray diseñado para ayudarte a detectar y gestionar comportamientos sospechosos relacionados con minería ilícita en tu servidor. Actualmente en fase **Beta**, sin base de datos: los registros se eliminarán al reiniciar el servidor. La persistencia de datos será añadida en futuras versiones.
+**Husna** es un sistema anti-xray diseñado para ayudarte a detectar y gestionar xray en tu servidor. Actualmente en fase **Beta**, sin base de datos: los registros se eliminarán al reiniciar el servidor. La persistencia de datos será añadida en futuras versiones.
+Puedes ayudar a **Husna** mejorando cosas haciendo un fork, y luego un pull request. **Husna** funciona como un AntiCheat, enviando alertas, ver el perfil, logs y permiso para bypassear.
+**Husna** Es la mejor opcion en caso de que no quieras habilitar el Anti-XRay de tu spigot ya que causa muchos errores, confusiones, lag, etc.
 
 ---
 
