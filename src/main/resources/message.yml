@@ -1,0 +1,17 @@
+message:
+  # Plugin Prefix
+  prefix: "&8[&eHusna&8] "
+  # Incorrect command syntax...
+  incorrect-syntax: "&cUnknown command. Use /husna <help/reload/gui/log>"
+  no-permission: "&cYou do not have permissions to use this command"
+  incorrect-logs-syntax: "&cIncorrect use. Use: /husna logs <user>"
+  # Turn alert messages on or off
+  alerts-on: "&aThe alerts have been activated."
+  alerts-off: "&cThe alerts have been disabled."
+  incorrect-alerts-syntax: "&cUnknown command. Use /husna alerts <on/off>"
+  incorrect-profile-syntax: "&cUnknown command. Use /husna profile <user>"
+  no-online-user: "&cThe player is not online."
+  # Log message
+  logs-message: "&aUser %player% has %alertCount% alerts for possible X-ray use"
+  # Reload message
+  reload-message: "&aConfiguration reloaded!"

@@ -1,0 +1,74 @@
+##################################################################################
+# +----------------------------------------------------------------------------+ #
+# |                                 XRay Alert                                 | #
+# |                                                                            | #
+# |                        A practical plugin for moderators                   | #
+# |                                                                            | #
+# |                      © 2024 - Developed by Destroyed Development           | #
+# |                                                                            | #
+# |                                                                            | #
+# |                                                                            | #
+# |                         Customize the plugin your way                      | #
+# +----------------------------------------------------------------------------+ #
+##################################################################################
+
+#                         __
+#     ____  ____  _ __   / _|(_) __  _
+#   /   _/ /    \| '_  \| |_| |/   , |
+#   |  (_ | (_) || | | |  _|| |  (_| |
+#   \____\\____/ |_| |_|_|  |_|\__,  |
+#                                |___/
+
+config:
+  # Define the timeout in seconds before a user sends a possible x-ray warning.
+  seconds: 10
+  # Define the ore mining threshold to trigger the x-ray alert.
+  count: 10
+
+  tracked-blocks:
+    - DIAMOND_ORE
+    - EMERALD_ORE
+    - IRON_ORE
+
+# %player% user who generated the alert.
+# %count% Number of ores mined.
+# %ores% Ores mined.
+# %time% Mining Time.
+
+message-alert:
+  - "&e"
+  - "&c  &c⚠ &fXRay Alert &c⚠"
+  - "&e"
+  - "&aUser: &f%player%"
+  - "&bMined Ores: &f%count% %ores%"
+  - "&aTime: &r%time% &fSeconds"
+  - "&f"
+  - "&cPossible use of XRay"
+  - "&f"
+
+# Define the sanctions, which you will give to users who send a
+# certain number of alerts.
+violations:
+  enable: true
+  alerts: 10
+  commands:
+    - "kick %player% You were banned from the server due to a majority of alerts"
+
+# Defines whether alerts will be sent to a discord channel
+Discord:
+  enable: false
+  # Defines the webhook to which the embed will be sent
+  webhookUrl: "https://discord.com/api/webhooks/XXXXXXXXXX/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  # Edit the embed to your liking
+  embed:
+    title: "🔍 X-Ray Alert Detected"
+    description:
+      - "Player %p has mined %c blocks of %b"
+      - "in less than %s seconds."
+    # embed color
+    color: "15158332"
+
+Server-manager:
+  inventory:
+    name: "&cServer Manager"
+    item-close: "&cClose"

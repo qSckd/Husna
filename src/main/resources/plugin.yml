@@ -1,0 +1,11 @@
+main: live.destroyed.husna.Husna
+version: 1.0.0-Beta
+author: Destroyed Studios
+name: Husna
+api-version: 1.13
+
+commands:
+  husna:
+    description: Principal Command
+    aliases:
+      - xray

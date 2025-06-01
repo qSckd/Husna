@@ -1,0 +1,48 @@
+    nightvision:
+      activate:
+        name: "&aEnable &fNight Vision"
+        lore:
+          - "&7"
+          - "&fClick to enable night vision"
+      disable:
+        name: "&cDisable &fNight Vision"
+        lore:
+          - "&7"
+          - "&fClick to disable night vision"
+    invisibility:
+      activate:
+        name: "&aEnable &fInvisibility"
+        lore:
+          - "&7"
+          - "&fClick to enable invisibility"
+      disable:
+        name: "&cDisable &fInvisibility"
+        Lore:
+          - "&7"
+          - "&fClick to disable invisibility"
+    Spectator-mode:
+      activate:
+        name: "&aEnable &fSpectator Mode"
+        lore:
+          - "&7"
+          - "&fClick to enable spectator mode"
+        message: "&aSpectator mode enabled"
+      disable:
+        name: "&cDisable &fSpectator Mode"
+        Lore:
+          - "&7"
+          - "&fClick to disable spectator mode"
+        Message: "&cSpectator mode disabled"
+    Creative-mode:
+      activate:
+        name: "&aEnable &fCreative Mode"
+        lore:
+          - "&7"
+          - "&fClick to enable spectator mode"
+        message: "&aCreative mode enabled"
+      disable:
+        name: "&cDisable &fCreative Mode"
+        Lore:
+          - "&7"
+          - "&fClick to disable spectator mode"
+        Message: "&cCreative mode disabled"
