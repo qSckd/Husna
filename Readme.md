@@ -37,3 +37,4 @@ Puedes ayudar a **Husna** mejorando cosas haciendo un fork, y luego un pull requ
 > **Husna aún no utiliza una base de datos.**
 > Todos los logs se eliminan al reiniciar el servidor.
 > Esta funcionalidad será mejorada en futuras actualizaciones.
+> La version base es 1.20.4, Husna solo fue testeada en esa version pero esta asegurado que sirve en 1.20x-1.21x
