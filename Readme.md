@@ -6,6 +6,17 @@ Puedes ayudar a **Husna** mejorando cosas haciendo un fork, y luego un pull requ
 
 ---
 
+## 🍁 Main Category
+📊 Automatic X-Ray Detection: Monitors player mining activity and sends alerts if an unusual amount of ores is found within a short period of time.
+🔔 Customizable Notification System: Administrators can enable or disable specific alerts for their account using a simple command.
+🛠️ Staff GUI Interface: Includes an intuitive menu that allows staff to manage alerts, toggle the system on or off, and access detailed player information.
+🌠 Profile Command: Get details like player name, UUID, latency, and the type of launcher used for more thorough monitoring.
+🛡️ Easy Configuration: Fully configurable through the config.yml file, allowing adjustments based on your server's needs.
+🌊 Supports 1.8x - 1.21
+📣 NOW Supports MySQL and SQLite
+
+---
+
 ## 📜 Permisos
 
 | Permiso              | Descripción                                                          |
@@ -37,4 +48,14 @@ Puedes ayudar a **Husna** mejorando cosas haciendo un fork, y luego un pull requ
 > **Husna aún no utiliza una base de datos.**
 > Todos los logs se eliminan al reiniciar el servidor.
 > Esta funcionalidad será mejorada en futuras actualizaciones.
-> La version base es 1.20.4, Husna solo fue testeada en esa version pero esta asegurado que sirve en 1.20x-1.21x
+
+![image](https://github.com/user-attachments/assets/29f4d015-769a-4bfe-a549-98a214839675)
+![image](https://github.com/user-attachments/assets/ac8c597a-8e0b-43d3-aac7-dae76245b933)
+![image](https://github.com/user-attachments/assets/ddeda7b8-155f-4d8f-994e-f626ff884f27)
+![image](https://github.com/user-attachments/assets/130fd7e9-1c53-4cfc-8f7c-8af36db0a476)
+![image](https://github.com/user-attachments/assets/fd5a930b-2b3a-4ba9-80f8-1dd508417ab8)
+
+
+
+
+
