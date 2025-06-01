@@ -49,7 +49,18 @@ public class Husna extends JavaPlugin {
    }
 
    public void onDisable() {
-      Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', this.prefix + "&fSee you soon"));
+      Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', "&b    __  ____  _______ _   _____ "));
+      Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', "&b   / / / / / / / ___// | / /   |"));
+      Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', "&b  / /_/ / / / /\\__ \\/  |/ / /| |"));
+      Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', "&b / __  / /_/ /___/ / /|  / ___ |"));
+      Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', "&b/_/ /_/\\____//____/_/ |_/_/  |_|"));
+      Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', "&f"));
+      Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', "&f* &bVersion: &7" + this.version));
+      Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', "&f* &bAuthor: &bTortaDePollo"));
+      Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', "&f* &bDiscord: &fdsc.gg/destroyedlive"));
+      Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', "&f"));
+      Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', "&f* &cHusna has been disabled."));
+      Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', "&f* &aThanks for using me! &c❤"));
    }
 
    public void registerCommand() {
