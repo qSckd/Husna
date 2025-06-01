@@ -31,12 +31,11 @@ public class Husna extends JavaPlugin {
       this.saveDefaultConfig();
       String webhookUrl = this.getMainConfigManager().getWebhooks();
       this.alertsDiscord = new AlertsDiscord(webhookUrl);
-      Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&',
-        "&b    __  ____  _______ _   _____ \n" +
-        "&b   / / / / / / / ___// | / /   |\n" +
-        "&b  / /_/ / / / /\\__ \\/  |/ / /| |\n" +
-        "&b / __  / /_/ /___/ / /|  / ___ |\n" +
-        "&b/_/ /_/\\____//____/_/ |_/_/  |_|\n"));
+      Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', "&b    __  ____  _______ _   _____ "));
+      Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', "&b   / / / / / / / ___// | / /   |"));
+      Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', "&b  / /_/ / / / /\\__ \\/  |/ / /| |"));
+      Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', "&b / __  / /_/ /___/ / /|  / ___ |"));
+      Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', "&b/_/ /_/\\____//____/_/ |_/_/  |_|"));
       Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', "&f"));
       Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', "&f* &bVersion: &7" + this.version));
       Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', "&f* &bAuthor: &bTortaDePollo"));
@@ -46,7 +45,7 @@ public class Husna extends JavaPlugin {
       Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', "&f"));
       Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', "&f* &bDiscord: &fdsc.gg/destroyedlive"));
       Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', "&f"));
-      Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', "&fThanks for using my plugin &c❤"));
+      Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', "&fThanks for using me! &c❤"));
    }
 
    public void onDisable() {
