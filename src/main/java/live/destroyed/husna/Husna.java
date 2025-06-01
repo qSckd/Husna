@@ -49,6 +49,7 @@ public class Husna extends JavaPlugin {
    }
 
    public void onDisable() {
+      Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', "&f"));
       Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', "&b    __  ____  _______ _   _____ "));
       Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', "&b   / / / / / / / ___// | / /   |"));
       Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', "&b  / /_/ / / / /\\__ \\/  |/ / /| |"));
@@ -61,6 +62,7 @@ public class Husna extends JavaPlugin {
       Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', "&f"));
       Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', "&f* &cHusna has been disabled."));
       Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', "&f* &aThanks for using me! &c❤"));
+      Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', "&f"));
    }
 
    public void registerCommand() {
