@@ -43,7 +43,7 @@ public class DatabaseManager {
             }
         } else {
             this.connector = new SQLiteConnector(this.plugin);
-            this.plugin.getLogger().info(MessageUtils.getColoredMessage("&aUsando SQLite como base de datos local"));
+            this.plugin.getLogger().info(MessageUtils.getColoredMessage("Usando SQLite como base de datos local"));
         }
         this.initializeTables();
     }
@@ -53,12 +53,12 @@ public class DatabaseManager {
             String createAlertsTable = "CREATE TABLE IF NOT EXISTS xray_alerts (id INTEGER PRIMARY KEY " + (this.connector instanceof MySQLConnector ? "AUTO_INCREMENT" : "AUTOINCREMENT") + ",player_name VARCHAR(36) NOT NULL,world VARCHAR(50) NOT NULL,block_type VARCHAR(50) NOT NULL,quantity INT NOT NULL,x_coord INT NOT NULL,y_coord INT NOT NULL,z_coord INT NOT NULL,alert_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP)";
             try (PreparedStatement ps = conn.prepareStatement(createAlertsTable);){
                 ps.executeUpdate();
-                this.plugin.getLogger().info(MessageUtils.getColoredMessage("&aTabla xray_alerts inicializada correctamente"));
+                this.plugin.getLogger().info(MessageUtils.getColoredMessage("Tabla xray_alerts inicializada correctamente"));
             }
             String createSettingsTable = "CREATE TABLE IF NOT EXISTS player_settings (uuid VARCHAR(36) PRIMARY KEY,alerts_enabled BOOLEAN NOT NULL DEFAULT TRUE)";
             try (PreparedStatement ps = conn.prepareStatement(createSettingsTable);){
                 ps.executeUpdate();
-                this.plugin.getLogger().info(MessageUtils.getColoredMessage("&aTabla player_settings inicializada correctamente"));
+                this.plugin.getLogger().info(MessageUtils.getColoredMessage("Tabla player_settings inicializada correctamente"));
             }
         } catch (SQLException e) {
             this.plugin.getLogger().severe("Error al inicializar las tablas de la base de datos: " + e.getMessage());
