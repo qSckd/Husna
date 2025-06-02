@@ -1,19 +1,19 @@
 # 🛡️ Husna - AntiCheat for Xray
 
-**Husna** es un sistema anti-xray diseñado para ayudarte a detectar y gestionar xray en tu servidor.
-Puedes ayudar a **Husna** mejorando cosas haciendo un fork, y luego un pull request. **Husna** funciona como un AntiCheat, enviando alertas, ver el perfil, logs y permiso para bypassear.
-**Husna** Es la mejor opcion en caso de que no quieras habilitar el Anti-XRay de tu spigot ya que causa muchos errores, confusiones, lag, etc.
+* **Husna** es un sistema anti-xray diseñado para ayudarte a detectar y gestionar xray en tu servidor.
+* Puedes ayudar a **Husna** mejorando cosas haciendo un fork, y luego un pull request. **Husna** funciona como un AntiCheat, enviando alertas, ver el perfil, logs y permiso para bypassear.
+* **Husna** Es la mejor opcion en caso de que no quieras habilitar el Anti-XRay de tu spigot ya que causa muchos errores, confusiones, lag, etc.
 
 ---
 
 ## 🍁 Main Category
-📊 Automatic X-Ray Detection: Monitors player mining activity and sends alerts if an unusual amount of ores is found within a short period of time.
-🔔 Customizable Notification System: Administrators can enable or disable specific alerts for their account using a simple command.
-🛠️ Staff GUI Interface: Includes an intuitive menu that allows staff to manage alerts, toggle the system on or off, and access detailed player information.
-🌠 Profile Command: Get details like player name, UUID, latency, and the type of launcher used for more thorough monitoring.
-🛡️ Easy Configuration: Fully configurable through the config.yml file, allowing adjustments based on your server's needs.
-🌊 Supports 1.8x - 1.21
-📣 NOW Supports MySQL and SQLite
+* 📊 Automatic X-Ray Detection: Monitors player mining activity and sends alerts if an unusual amount of ores is found within a short period of time.
+* 🔔 Customizable Notification System: Administrators can enable or disable specific alerts for their account using a simple command.
+* 🛠️ Staff GUI Interface: Includes an intuitive menu that allows staff to manage alerts, toggle the system on or off, and access detailed player information.
+* 🌠 Profile Command: Get details like player name, UUID, latency, and the type of launcher used for more thorough monitoring.
+* 🛡️ Easy Configuration: Fully configurable through the config.yml file, allowing adjustments based on your server's needs.
+* 🌊 Supports 1.8x - 1.21x
+* 📣 NOW Supports MySQL and SQLite
 
 ---
 
