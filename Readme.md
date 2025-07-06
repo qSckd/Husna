@@ -3,7 +3,8 @@
 * **Husna** es un sistema anti-xray diseñado para ayudarte a detectar y gestionar xray en tu servidor.
 * Puedes ayudar a **Husna** mejorando cosas haciendo un fork, y luego un pull request. **Husna** funciona como un AntiCheat, enviando alertas, ver el perfil, logs y permiso para bypassear.
 * **Husna** Es la mejor opcion en caso de que no quieras habilitar el Anti-XRay de tu spigot ya que causa muchos errores, confusiones, lag, etc.
-
+  
+**I originally created this plugin a year ago, so the code quality might not be the best. I recently found the JAR file, decompiled it, and started adding new features.**
 
 ## Credits
 
