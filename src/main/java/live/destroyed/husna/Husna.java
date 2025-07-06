@@ -1,7 +1,6 @@
 /*
- * Decompiled with CFR 0.153-SNAPSHOT (d6f6758-dirty).
+ * Anti-Xray | matthew.tf
  *
- * Could not load the following classes:
  *  org.bukkit.Bukkit
  *  org.bukkit.ChatColor
  *  org.bukkit.Location
