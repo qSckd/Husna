@@ -4,6 +4,12 @@
 * Puedes ayudar a **Husna** mejorando cosas haciendo un fork, y luego un pull request. **Husna** funciona como un AntiCheat, enviando alertas, ver el perfil, logs y permiso para bypassear.
 * **Husna** Es la mejor opcion en caso de que no quieras habilitar el Anti-XRay de tu spigot ya que causa muchos errores, confusiones, lag, etc.
 
+
+## Credits
+
+- **1**: zDxL07_ | Giving the idea and testing
+- **2**: maaattn (me) | Developing the plugin
+
 ---
 
 ## 🍁 Main Category
